@@ -6,13 +6,13 @@ We love contributors!
 
 This project uses Yeoman (because I'm lazy) and Zurb Foundation 5 (because I'm lazy).
 
-Dependencies:
+**Dependencies:**
 
 * Nodejs
 * NPM
 * Bower
 
-Grunt tasks:
+**Grunt tasks:**
 
 run project
 (compile Jade, compile Sass, bower install, livereload (server on 127.0.0.1:9000), watch)
@@ -39,5 +39,12 @@ Just push the dist folder to gh-pages branch.
 git subtree push --prefix dist origin gh-pages
 ```
 
+### TO DO
+
+* start using a templating library (not jade)
+* add more curated training materials
+* add a real header image and maybe some style
+* add more glossary terms (broad stuff only)
+* add real footer links or remove altogether
 
 
