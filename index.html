@@ -20,6 +20,7 @@
                     <dd data-magellan-arrival="coding-tools"><a href="#coding-tools">Coding Tools</a></dd>
                     <dd data-magellan-arrival="intermediate"><a href="#intermediate">Further Study</a></dd>
                     <dd data-magellan-arrival="glossary"><a href="#glossary">Glossary</a></dd>
+                    <dd data-magellan-arrival="faq"><a href="#faq">FAQ</a></dd>
                 </dl>
             </div>
           </div>
@@ -28,12 +29,12 @@
     <br>
 
       <div class="row">
-        <div class="large-12 columns">
+        <div class="large-12 columns" id="header-basics">
           <p><a name="basics"></a></p>
           <h2 data-magellan-destination="basics">The Basics</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="basics">
         <div class="medium-4 large-4 column text-center">
           <i class="fa fa-file-text-o fa-border"></i>
           <h4>HTML</h4>
@@ -70,12 +71,12 @@
       </div>
 
       <div class="row">
-        <div class="large-12 columns">
+        <div class="large-12 columns" id="header-coding-tools">
           <p><a name="coding-tools"></a></p>
           <h2 data-magellan-destination="coding-tools">Coding Tools</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="coding-tools">
         <div class="medium-3 large-3 text-center column">
           <i class="fa fa-wrench fa-border"></i>
             <h4>CodeKit</h4>
@@ -115,50 +116,51 @@
             <li><a href="https://try.github.io" target="_blank">GitHub on Code School <i class="fa fa-external-link"></i></a></li>
           </ol>
         </div>
-      </div>
-
+      </div>      
 
       <div class="row">
-        <p><a name="intermediate"></a></p>
-        <div class="medium-6 large-6 column">
-          <h3 data-magellan-destination="intermediate">Further Study</h3>
-          <div class="row">
-            <div class="medium-6 large-6 text-center column">
-              <i class="fa fa-cogs fa-border"></i>
-                <h4>Sass</h4>
-                <p>Sass is the most popular CSS preprocessor. It adds many features to CSS, but is also <span data-tooltip aria-haspopup="true" class="has-tip" title="this means valid CSS is always valid Sass">backward compatible</span>.</p>
-              <ol class="text-left">
-                <li><a href="https://scotch.io/tutorials/getting-started-with-sass" target="_blank">Learn on Scotch.io <i class="fa fa-external-link"></i></a></li>
-                <li><a href="http://thesassway.com/beginner/getting-started-with-sass-and-compass" target="_blank">Read on The Sass Way <i class="fa fa-external-link"></i></a></li>
-                <li><a href="http://sassmeister.com/" target="_blank">Play in Sassmeister <i class="fa fa-external-link"></i></a></li>
-              </ol>
-            </div>
-            <div class="medium-6 large-6 text-center column">
-              <i class="fa fa-code fa-border"></i>
-                <h4>JavaScript</h4>
-                <p>Javascript (JS) is a programming language that allows adding behavior and interactivity to web pages.</p>
-              <ol class="text-left">
-                <li><a href="https://www.codeschool.com/courses/javascript-road-trip-part-1" target="_blank">Learn on Code School <i class="fa fa-external-link"></i></a></li>
-                <li><a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Learn on Codecademy <i class="fa fa-external-link"></i></a></li>
-                <li><a href="http://jsforcats.com/" target="_blank">JavaScript for Cats <i class="fa fa-external-link"></i></a></li>
-              </ol>
-            </div>
-          </div>
+        <div class="large-12 columns" id="header-further-study">
+          <p><a name="intermediate"></a></p>
+          <h2 data-magellan-destination="intermediate">Further Study</h2>
+        </div>
+      </div>
+      <div class="row" id="further-study">
+        <div class="small-3 medium-3 text-center column">
+          <i class="fa fa-cogs fa-border"></i>
+            <h4>Sass</h4>
+            <p>Sass is the most popular CSS preprocessor. It adds many features to CSS, but is also <span data-tooltip aria-haspopup="true" class="has-tip" title="this means valid CSS is always valid Sass">backward compatible</span>.</p>
+          <ol class="text-left">
+            <li><a href="https://scotch.io/tutorials/getting-started-with-sass" target="_blank">Learn on Scotch.io <i class="fa fa-external-link"></i></a></li>
+            <li><a href="http://thesassway.com/beginner/getting-started-with-sass-and-compass" target="_blank">Read on The Sass Way <i class="fa fa-external-link"></i></a></li>
+            <li><a href="http://sassmeister.com/" target="_blank">Play in Sassmeister <i class="fa fa-external-link"></i></a></li>
+          </ol>
+        </div>
+        <div class="small-3 medium-3 text-center column">
+          <i class="fa fa-code fa-border"></i>
+            <h4>JavaScript</h4>
+            <p>Javascript (JS) is a programming language that allows adding behavior and interactivity to web pages.</p>
+          <ol class="text-left">
+            <li><a href="https://www.codeschool.com/courses/javascript-road-trip-part-1" target="_blank">Learn on Code School <i class="fa fa-external-link"></i></a></li>
+            <li><a href="http://www.codecademy.com/en/tracks/javascript" target="_blank">Learn on Codecademy <i class="fa fa-external-link"></i></a></li>
+            <li><a href="http://jsforcats.com/" target="_blank">JavaScript for Cats <i class="fa fa-external-link"></i></a></li>
+          </ol>
         </div>
         <div class="medium-6 large-6 column">
-          <div class="row">
-            <div class="panel callout radius">
-            <h3>Bonus Challenge <i class="fa fa-certificate"></i></h3>
-            <h4 class="subheader">Style this page!</h4>
+            <div class="panel callout radius" id="faq">
+              <h3>Bonus Challenge <i class="fa fa-certificate"></i></h3>
+              <h5 class="subheader">Style this page!</h5>
               <ol>
-                <li>Grab the project code from <a href="https://github.pme.penton.com/PENTON/web-fundamentals">GitHub</a>.</li>
-                <li>Drag the project directory into CodeKit and your text editor.</li>
+                <li>Grab the project code from <a href="https://github.pme.penton.com/PENTON/web-fundamentals">GitHub <i class="fa fa-external-link"></i></a></li>
+                <li>Drag the project directory first into CodeKit and then into Sublime Text</li>
+                <li>In CodeKit, under 'Project Settings,' add <code>dist</code> to 'Document-Root Subpath' field</li>
+                <li>Use the CodeKit Preview button to confirm your local copy of the site is loading correctly</li>
                 <li>Open /app/scss/_appstyles.scss and add CSS (or Sass) style rules to make it pretty!</li>
               </ol>
             </div>
-          </div>
         </div>
       </div>
+
+
 
         <div class="row">
           <div class="panel">
@@ -180,6 +182,20 @@
                 <dd>Version control is the term for how coders keep track of changes over time. It helps you protect and share your projects.</dd>
                 <dt id="definition-gui">GUI or Graphical User Interface</dt>
                 <dd>GUI is a term used for software that provides a graphical user interface, so that users can follow visual cues rather than writing machine code. For example, Git can be used from the console or with GUI software, such as Tower or SourceTree.</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="panel callout">
+          <p><a name="faq"></a></p>
+            <h4 data-magellan-destination="faq">FAQ</h4>
+            <hr />
+            <dl>
+                <dt>Whoa, whoa, whoa... this is going way too fast for me. I have no idea what you are talking about.</dt>
+                <dd>Start by watching  <a href="http://www.dontfeartheinternet.com/the-basics/not-tubes" target="_blank">this 5 minute internet primer</a>. Next, go through the rest of the videos on Don't Fear the Internet, in order (which is backwards on the site, for some reason). Then, come back and try the other lessons again. Also, ask for help.</dd>
+                <dt>Whoa, whoa, whoa... this is way too easy for me. You are literally wasting my time. I'm falling asleep right now.</dt>
+                <dd>You can <a href="http://cli.learncodethehardway.org/book/" target="_blank">learn command line the hard way</a> (ironically it's not that hard). Then learn <a href="http://yeoman.io/learning/index.html" target="_blank">Yeoman</a>, <a href="http://bower.io/" target="_blank">Bower</a>, and the concept of task runners (<a href="http://gruntjs.com/getting-started" target="_blank">Grunt</a>, <a href="https://github.com/gulpjs/gulp/tree/master/docs">Gulp</a>). And/or, use your CSS ninja skills at the <a href="http://www.csszengarden.com/" target="_blank">CSS Zen Garden</a>.</dd>
             </dl>
           </div>
         </div>
