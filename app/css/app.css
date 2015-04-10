@@ -5985,3 +5985,6 @@ th.hide-for-touch {
 /* all app scss styles here */
 .row .column i.fa-border {
   font-size: 600%; }
+
+.column p + ol {
+  font-size: 0.9em; }
